@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+MapStudio/.venv/
+.venv/
+
+# Ghidra project and raw binary-analysis output (large and/or derived from the MadMapper binary)
+ghidra/MadMapper.rep/
+ghidra/*.lock
+ghidra/*.console.txt
+ghidra/*.log
+decompiled/
+guides-text/
+index/strings.csv
+index/functions.csv
+index/magic_refs.txt
+index/mm_*.txt
+index/fixture_shader.glsl
+
+# Local scratch
+*.tmp
+*.log
+E:/
